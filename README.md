@@ -33,6 +33,3 @@ Os scripts são desenvolvidos para atender a diferentes etapas do gerenciamento 
 ## Público-alvo
 
 O projeto é destinado a pesquisadores, estudantes de graduação e pós-graduação e demais usuários do Zotero que realizam revisões sistemáticas ou levantamentos bibliográficos e desejam automatizar atividades de organização e análise de referências.
-
-
-Consulte o arquivo LICENSE.
