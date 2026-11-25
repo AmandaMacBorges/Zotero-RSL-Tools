@@ -30,55 +30,9 @@ Os scripts são desenvolvidos para atender a diferentes etapas do gerenciamento 
 | `01-contabilizar-exclusoes.js` | Identifica e contabiliza critérios de exclusão registrados nas notas dos trabalhos. |
 | `02-identificar-sem-notas.js` | Identifica referências que ainda não possuem notas anexadas. |
 | `03-organizar-por-tags.js` | Auxilia na classificação e organização das referências por etiquetas. |
-
-## Organização do repositório
-
-```text
-zotero-rsl-tools/
-│
-├── scripts/
-│   ├── 01-exclusao/
-│   │   └── 01-contabilizar-exclusoes.js
-│   │
-│   ├── 02-identificacao/
-│   │   └── 02-identificar-sem-notas.js
-│   │
-│   └── 03-organizacao/
-│       └── 03-organizar-por-tags.js
-│
-├── docs/
-│   ├── instalacao.md
-│   ├── criterios-de-exclusao.md
-│   └── organizacao-por-tags.md
-│
-├── examples/
-│   └── relatorio-exemplo.txt
-│
-├── README.md
-├── CHANGELOG.md
-└── LICENSE
-```
-
-## Requisitos
-
-- Zotero com suporte às APIs JavaScript utilizadas pelos scripts.
-- Acesso ao ambiente de execução JavaScript do Zotero.
-- Biblioteca bibliográfica previamente organizada conforme as instruções de cada ferramenta.
-
-## Como utilizar
-
-Cada script possui instruções próprias sobre sua finalidade, parâmetros necessários, funcionamento e resultados esperados.
-
-Antes da execução, recomenda-se realizar testes em uma coleção de demonstração ou em uma cópia da biblioteca, especialmente para scripts que modificam etiquetas ou informações das referências.
-
 ## Público-alvo
 
 O projeto é destinado a pesquisadores, estudantes de graduação e pós-graduação e demais usuários do Zotero que realizam revisões sistemáticas ou levantamentos bibliográficos e desejam automatizar atividades de organização e análise de referências.
 
-## Contribuições
-
-Sugestões, melhorias e adaptações são bem-vindas. A proposta é manter um conjunto de ferramentas extensível, que possa ser aproveitado e aprimorado em diferentes pesquisas acadêmicas.
-
-## Licença
 
 Consulte o arquivo LICENSE.
